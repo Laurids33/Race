@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Kamera
   m_TagString: MainCamera
@@ -269,6 +270,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6238b55434b783b7b06eeca678bc478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24294a726654d61129c948ebbe6ccf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fahrzeug: {fileID: 2138702185}
 --- !u!1 &335727401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,7 +1708,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720747369}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 7433862e69d7ce91992f394e72144d8d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

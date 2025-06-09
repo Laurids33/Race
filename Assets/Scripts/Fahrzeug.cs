@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Fahrzeug : MonoBehaviour
 {
-    readonly float drehmomentFaktor = 25000;
+    readonly float drehmomentFaktor = 15000;
     public WheelCollider collVL, collVR, collHL, collHR;
     readonly float lenkwinkelFaktor = 30;
     public GameObject radVL, radVR;
