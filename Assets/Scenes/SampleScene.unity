@@ -712,8 +712,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 747444390}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0.15, z: -1.4}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0.14999999, z: -1.4000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1991,6 +1991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2138702187}
   - component: {fileID: 2138702186}
+  - component: {fileID: 2138702188}
   m_Layer: 0
   m_Name: Fahrzeug
   m_TagString: Untagged
@@ -2052,6 +2053,24 @@ Transform:
   - {fileID: 747444391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138702188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138702185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ccdf700ce6f5e06aa6a8f700de5129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collVL: {fileID: 1222438999}
+  collVR: {fileID: 893151006}
+  collHL: {fileID: 1414851352}
+  collHR: {fileID: 747444392}
+  radVL: {fileID: 1591593592}
+  radVR: {fileID: 1154223717}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
